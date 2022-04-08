@@ -51,7 +51,7 @@ class AuthPage extends Component {
     };
 
     if (!this.state.isLogin) {
-      alert("user not found");
+      
       requestBody = {
         query: `
           mutation CreateUser($email: String!, $password: String!) {
