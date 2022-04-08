@@ -9,7 +9,7 @@ class BookingsPage extends Component {
     isLoading: false,
     bookings: []
   };
-
+// hasd Comment
 
   static contextType = AuthContext;
 
